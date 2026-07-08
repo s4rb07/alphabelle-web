@@ -24,7 +24,7 @@ const ContactSection = () => {
 	const [isLoading, setIsLoading] = useState(false);
 
 	// Servicios dinámicos desde la traducción
-	const services = Array.from({ length: 7 }, (_, i) => tServices(`s${i + 1}`));
+	const services = Array.from({ length: 6 }, (_, i) => tServices(`s${i + 1}`));
 
 	// Toasts
 	const showSuccess = (msg) =>

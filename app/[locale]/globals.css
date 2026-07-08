@@ -3,49 +3,90 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --cream: #f6f2ea;
+  --sand: #ece5d8;
+  --espresso: #2a2521;
+  --gold: #b08d57;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    padding: 0;
+    margin: 0;
+    background: var(--cream);
+    -webkit-font-smoothing: antialiased;
   }
-}
 
-body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  /* color: white; */
-  /* background: black;
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-html {
-  scroll-behavior: smooth;
+  h1, h2, h3, h4 {
+    font-family: var(--font-cormorant), Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+  /* Editorial eyebrow label */
+  .eyebrow {
+    font-family: var(--font-montserrat), sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.32em;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  /* Thin gold hairline divider */
+  .hairline {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      rgba(176, 141, 87, 0.55),
+      transparent
+    );
+  }
+
+  /* Subtle film grain / paper texture overlay */
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+/* Slow ambient zoom for hero media */
+@keyframes ab-kenburns {
+  from { transform: scale(1.05); }
+  to   { transform: scale(1.18); }
+}
+.ab-kenburns {
+  animation: ab-kenburns 22s ease-out forwards;
+}
+
+/* Staggered hero text reveal */
+@keyframes ab-rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.ab-rise {
+  opacity: 0;
+  animation: ab-rise 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .slick-slide img {
   border: none;
   outline: none;
 }
-
 .slick-slide:focus {
   outline: none;
 }
@@ -56,5 +97,5 @@ html {
   align-items: center;
   text-align: center;
   width: 100%;
-  max-width: 300px; /* Ajusta este valor según el tamaño que desees */
+  max-width: 300px;
 }

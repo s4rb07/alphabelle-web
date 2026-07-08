@@ -1,4 +1,3 @@
-import AboutSection from "./About/AboutSection";
 import TestimonialsSection from "./Testimonials/TestimonialsSection";
 
 
@@ -14,7 +13,6 @@ const BackgroundWrapper = () => {
 			}}
 		>
 			<div className="relative z-10">
-				<AboutSection />
 				<TestimonialsSection />
 			</div>
 		</div>

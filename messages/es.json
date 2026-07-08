@@ -1,241 +1,272 @@
 {
-  "NavBar":{
-    "links1": "Inicio",
-    "href1":"/",
-    "links2": "Sobre Nosotros",
-    "href2":"about",
-    "links3":"Servicios",
-    "href3":"/#services",
-    "links4":"Reservacion",
-    "href4":"/reservation",
-    "links5":"English",
-    "href5":"/en",
-    "buttonCont":"Reservar una cita"
-  },
-
-  "Banner": {
-    "title": "Somos tu destino exclusivo con precisión médica de vanguardia.",
-    "parrafo1": "¡Hemos diseñado un espacio donde la medicina regenerativa y la estética de alta gama convergen para potenciar la mejor versión de nuestros pacientes.",
-    "buttonc": "Reserva tu consulta privada",
-    "buttons": "Nuestros Servicios"
-  },
-
-  "AboutUsHome":{
-    "text1":"En AlphaBelle entendemos que la excelencia no tiene género.",
-    "text2":"Resultados naturales, discreción absoluta y protocolos personalizados para la anatomía masculina y femenina."
-  },
-  "AboutUs":{
-    "heading":"Sobre nosotros",
-    "title":"Sobre nosotras",
-    "subTitle": "Hemos diseñado un espacio donde la medicina regenerativa y la estética de alta gama convergen para potenciar la mejor versión de nuestros pacientes.",
-    "text": "En AlphaBelle Wellness, creemos que el bienestar y el cuidado estético son para todos. Nuestro enfoque integra a la perfección salud, equilibrio y belleza, ofreciendo soluciones personalizadas diseñadas para ayudar a cada individuo a alcanzar su mejor versión.",
-    "text1": "Combinamos tecnología avanzada con un enfoque integral orientado a resultados que va más allá de los tratamientos superficiales. Desde programas médicos de pérdida de peso y optimización hormonal hasta servicios estéticos como Botox, rellenos dérmicos y terapias avanzadas de regeneración de la piel, cada tratamiento se adapta para ofrecer resultados naturales y duraderos.",
-    "text2": "En AlphaBelle Wellness, no solo mejoramos la apariencia; ayudamos a restaurar la confianza, optimizar la salud general y elevar la calidad de vida.",
-    "mision": "Misión",
-    "textM": "En AlphaBelle Wellness, nuestra misión es redefinir el bienestar y la estética a través de una experiencia exclusiva y personalizada basada en la excelencia médica. Nos dedicamos a elevar la mejor versión de cada individuo mediante tratamientos avanzados enfocados en la pérdida de peso, el equilibrio hormonal y la regeneración de la piel.",
-    "textM1": "Al combinar ciencia, innovación y un enfoque holístico, entregamos resultados visibles, naturales y duraderos, creando un ambiente donde cada detalle está diseñado para inspirar confianza, mejorar la autoimagen y promover un bienestar auténtico y sostenible.",
-    "vision": "Visión",
-    "textV": "Nuestra visión es establecer a AlphaBelle Wellness como un destino de primer nivel en el bienestar moderno y la medicina estética, reconocido por su innovación, sofisticación y resultados excepcionales.",
-    "textV1": "Aspiramos a construir una marca icónica donde la salud, la belleza y el alto rendimiento existan en perfecta armonía, estableciendo un nuevo estándar en la industria y brindando una experiencia transformadora que trasciende lo convencional."
-    },
-  "HowWeWork":{
-    "title":"¿Como lo haremos?",
-    "text1":"Para comenzar, coordinaremos una cita contigo y tu familia para realizar un diagnóstico detallado de la situación actual que estás enfrentando. Luego, te presentaremos las opciones de solución más adecuadas para tus necesidades específicas.",
-    "text2":"Reemplazo de techo, insolación, ayudarte a cambiar de proveedor eléctrico sin costos. Nuestro objetivo es ofrecerte alternativas personalizadas que respondan efectivamente a tus requerimientos."
-  },
-  "Services": {
-  "title": "Profesionales en:",
-  "subtitle": "Procedimientos Médico-Estéticos",
-  "buttons": "Ver todos los servicios",
-  "buttons1": "Quiero saber más",
-  "texts1": "¿Listo para agendar?",
-  "texts2": "Reserva tu cita y recibe una consulta personalizada.",
- 
-  "s1": "Toxina Botulínica Tipo A (Botox)",
-  "imagen1": "/image/icono-otorgamos.png",
-  "descripcion1": "Aplicación intramuscular de toxina botulínica tipo A para la modulación temporal de la actividad neuromuscular. Su mecanismo de acción consiste en la inhibición presináptica de la liberación de acetilcolina en la unión neuromuscular, produciendo relajación muscular controlada.",
-  "text1": "Indicaciones principales",
-  "text12": "El tratamiento es mínimamente invasivo, con inicio de acción progresivo y duración aproximada de 3 a 4 meses.",
-  "text13": "",
-  "d11": "Líneas glabelares",
-  "d12": "Líneas frontales",
-  "d13": "Líneas periorbitarias (patas de gallo)",
-  "d14": "Prevención del envejecimiento dinámico",
-  "d15": "",
-  "d16": "",
-  "d17": "",
-  "d18": "",
- 
-  "s2": "Rellenos Dérmicos (Ácido Hialurónico y Bioestimuladores)",
-  "imagen2": "/image/icono-renovacion.png",
-  "descripcion2": "Procedimientos inyectables destinados a restaurar volumen, mejorar contornos faciales y corregir pérdida estructural asociada al envejecimiento.",
-  "text2": "Los materiales utilizados son biocompatibles y reabsorbibles, con resultados inmediatos y duración variable según el producto y metabolismo del paciente.",
-  "text22": "Áreas tratadas",
-  "text23": "Mecanismo",
-  "d21": "Labios",
-  "d22": "Surcos nasogenianos",
-  "d23": "Pómulos",
-  "d24": "Mentón",
-  "d25": "Línea mandibular",
-  "d26": "Ojeras",
-  "d27": "Reposición volumétrica inmediata.",
-  "d28": "Estimulación secundaria de neocolagénesis (dependiendo del producto utilizado).",
- 
-  "s3": "PRN (Polinucleótidos Regenerativos)",
-  "imagen3": "/image/icono-panel-solar.png",
-  "descripcion3": "Terapia regenerativa basada en polinucleótidos altamente purificados que actúan como bioestimuladores dérmicos. Promueven la reparación tisular mediante:",
-  "text3": "Indicados para",
-  "text32": "",
-  "text33": "",
-  "d31": "Estimulación de fibroblastos.",
-  "d32": "Incremento en síntesis de colágeno y elastina.",
-  "d33": "Mejora de microcirculación.",
-  "d34": "Aumento de hidratación profunda.",
-  "d35": "Piel fotoenvejecida.",
-  "d36": "Pérdida de elasticidad.",
-  "d37": "Cicatrices.",
-  "d38": "Textura irregular.",
- 
- "s4":"Platelet-Rich Plasma (PRP)",
-    "imagen4":"/image/icono-rentable.png",
-    "descripcion4":"Tratamiento autólogo basado en la centrifugación de sangre del paciente para aislar una alta concentración de plaquetas y factores de crecimiento.",
-
-    "text4": "Mecanismo de acción:",
-    "text42":"Modalities:",
-    "text43":"PRP Inyectado:",
-    "text44":"Aplicación intradérmica o subdérmica para bioestimulación profunda.",
-
-    "d41":"Liberación de factores de crecimiento (PDGF, TGF-β, VEGF)",
-    "d42":"Estimulación de angiogénesis.",
-    "d43":"Activación de fibroblastos.",
-    "d44":"Inducción de neocolágenesis.",
- 
-  "s5": "Terapia de Reemplazo de Testosterona (TRT)",
-  "imagen5": "/image/icono-remodelacion.png",
-  "descripcion5": "Tratamiento hormonal indicado en pacientes con hipogonadismo confirmado por laboratorio y evaluación clínica.",
-  "text5": "Administración",
-  "text52": "Objetivos terapéuticos",
-  "text53": "Requiere monitoreo periódico de",
-  "text54": "Testosterona inyectable intramuscular o subcutánea.",
-  "d50": "Restauración de niveles fisiológicos.",
-  "d51": "Mejora de masa muscular.",
-  "d52": "Optimización de energía y función cognitiva.",
-  "d53": "Mejora de libido y bienestar general.",
-  "d54": "Niveles séricos de testosterona.",
-  "d55": "Hematocrito.",
-  "d56": "Perfil lipídico.",
-  "d57": "Función hepática.",
-  "d58": "PSA (en hombres).",
- 
-  "s6": "Manejo Médico de Peso con Agonistas GLP-1 / GIP",
-  "imagen6": "/image/icono-instalacion.png",
-  "descripcion6": "Protocolos médicos personalizados para control de peso utilizando medicamentos inyectables como Ozempic (Semaglutida) y Mounjaro (Tirzepatida).",
-  "text6": "Mecanismo de acción",
-  "text62": "Indicaciones",
-  "text63": "Indicado en pacientes con sobrepeso u obesidad bajo evaluación médica integral. Requiere monitoreo clínico y metabólico continuo.",
-  "d61": "Agonismo del receptor GLP-1 (y GIP en tirzepatida).",
-  "d62": "Disminución del vaciamiento gástrico.",
-  "d63": "Regulación del apetito a nivel hipotalámico.",
-  "d64": "Mejora de sensibilidad a la insulina.",
- 
-  "s7": "PRP combinado con Microneedling (Dermapen)",
-  "descripcion7": "Inducción controlada de microcanales para potenciar penetración y activación regenerativa.",
-  "text71": "Indicado para",
-  "d71": "Alopecia.",
-  "d72": "Rejuvenecimiento facial.",
-  "d73": "Cicatrices de acné.",
-  "d74": "Melasma complementario.",
-
-    "s8":"Terapia Hormonal",
-    "descripcion8":"Un enfoque sofisticado y clínicamente supervisado para restablecer el equilibrio hormonal del cuerpo, mejorando la energía, el estado de ánimo, la composición corporal y la vitalidad general.",
-    "text8":"Ideal para:",
-    "d81":"Personas que buscan optimizar su bienestar, mejorar síntomas asociados a desequilibrios hormonales o recuperar su mejor versión física y emocional.",
-    
-
-    "s9":"IV Therapy (Terapia Intravenosa)",
-    "descripcion9":"Un tratamiento premium que aporta vitaminas, minerales y antioxidantes directamente al torrente sanguíneo, garantizando una absorción máxima y resultados inmediatos en energía, hidratación y luminosidad de la piel.",
-    "text9":"Ideal para:",
-    "d91":"Quienes desean revitalizar su organismo, fortalecer el sistema inmunológico, mejorar el rendimiento físico o lograr un efecto glow desde el interior.",
-
-    "s10":"Programas de Pérdida de Peso con Planes Nutricionales",
-    "descripcion10":"Ofrecemos programas de pérdida de peso completamente personalizados, diseñados según las necesidades, metabolismo y objetivos de cada persona. ",
-    "text11":"Nuestros planes nutricionales están enfocados en lograr resultados sostenibles, promoviendo hábitos saludables, balance hormonal y bienestar general, para que cada paciente no solo pierda peso, sino que mejore su calidad de vida a largo plazo.",
-    "text10":"Ideal for:",
-    "d101":"Personas comprometidas con transformar su cuerpo, optimizar su salud metabólica y alcanzar un equilibrio físico duradero."
-
-  },
- "Contact": {
-  "title": "Solicitud de información",
-  "subTitle": "Programa tu consulta",
-  "text1":"Estás a un paso de revitalizar tu piel con lo último en medicina regenerativa",
-  "text":"Déjanos tus datos y nuestro equipo médico se pondrá en contacto contigo para agendar tu valoración y diseñar el plan perfecto para ti",
-  "name": "Nombre",
-  "lastName": "Apellido",
-  "email": "Correo",
-  "phone": "Teléfono",
-  "state": "Estado",
-  "city": "Ciudad",
-  "zipCode": "Código Postal",
-  "message": "Mensaje",
-  "buttonE": "Enviar",
-  "whatsApp": "WhatsApp",
-  "phoneE": "Teléfono",
-  "emailE": "Correo",
-  "address": "Dirección",
-  "successMessage": "¡Formulario enviado con éxito!",
-  "services": "Servicio",
-  "error": "Por favor, completa todos los campos antes de enviar el formulario.",
-  "sending": "Enviando...",
-  "selectService":"Selecciona un servicio",
-  "service":"Servicio"
-},
- "Testimonial": {
-    "title": "Testimonios",
-    "persona1": {
-      "nombre": "Gustavo Cortés",
-      "profesion": "Empresario",
-      "mensaje": "Excelente atención y resultados muy naturales. El equipo de AlphaBelle superó mis expectativas con un trato impecable."
-    },
-    "persona2": {
-      "nombre": "Elena Rodríguez",
-      "profesion": "Diseñadora de Interiores",
-      "mensaje": "Me encantó la tecnología que utilizan. Se nota la experiencia y el cuidado en cada detalle del tratamiento."
-    },
-    "persona3": {
-      "nombre": "Ricardo Méndez",
-      "profesion": "Arquitecto",
-      "mensaje": "Un espacio moderno y profesional. Los resultados fueron visibles desde la primera sesión, totalmente recomendados."
-    },
-    "persona4": {
-      "nombre": "Sofía Villalobos",
-      "profesion": "Consultora de Imagen",
-      "mensaje": "La mejor clínica estética de la ciudad. El personal es muy amable y las instalaciones son de primer nivel."
-    }
-  },
-  "Allies":{
-    "title":"Nuestros Aliados"
-  },
-
-  
-  "CTA":{
-    "title":"El momento de invertir en ti es ahora",
-    "text":"No dejes tu bienestar para después. Nuestro equipo de especialistas está listo para diseñar un protocolo exclusivo que se adapte a tus objetivos y resalte tu esencia natural.",
-    "text1":"Social Media",
-    "text2":"Contactanos",
-    "buttonc":"Quiero hacer mi reserva"
-  },
-
- "Footer": {
-  "title": "Más información",
-  "textBold": "¿Aún no estás seguro de cuál es el tratamiento ideal para ti?",
-  "text": "Antes de cualquier procedimiento, nuestro equipo realiza una valoración personalizada para entender las necesidades únicas de tu piel y tus objetivos estéticos.",
-  "text1": "Contáctanos",
-  "buttonc": "Hacer mi reservación",
-  "address": "Ubicación",
-  "emailE": "Gmail",
-  "phoneE": "Teléfono",
-  "social": "Redes Sociales"
-}
- 
-
+	"NavBar": {
+		"links1": "Inicio",
+		"href1": "/",
+		"links2": "Sobre Nosotros",
+		"href2": "about",
+		"links3": "Servicios",
+		"href3": "services",
+		"links4": "Reservacion",
+		"href4": "/reservation",
+		"links5": "English",
+		"href5": "/en",
+		"buttonCont": "Reservar una cita",
+		"shop": "Tienda"
+	},
+	"Banner": {
+		"title": "Somos tu destino exclusivo con precisión médica de vanguardia.",
+		"parrafo1": "¡Hemos diseñado un espacio donde la medicina regenerativa y la estética de alta gama convergen para potenciar la mejor versión de nuestros pacientes.",
+		"buttonc": "Reserva tu consulta privada",
+		"buttons": "Nuestros Servicios"
+	},
+	"AboutUsHome": {
+		"text1": "En AlphaBelle entendemos que la excelencia no tiene género.",
+		"text2": "Resultados naturales, discreción absoluta y protocolos personalizados para la anatomía masculina y femenina."
+	},
+	"Home": {
+		"whatEyebrow": "Lo que hacemos",
+		"whatTitle": "Tratamientos diseñados a tu medida",
+		"whatText": "Desde manejo médico de peso y optimización hormonal hasta Botox, rellenos dérmicos y terapias regenerativas avanzadas — cada protocolo se adapta para entregar resultados naturales y duraderos.",
+		"whatCta": "Ver todos los servicios",
+		"whoEyebrow": "Quiénes somos",
+		"whoText": "Un espacio donde la medicina regenerativa y la estética de alta gama convergen — construido sobre precisión, discreción y un compromiso genuino con tu bienestar.",
+		"whoCta": "Sobre AlphaBelle"
+	},
+	"AboutUs": {
+		"heading": "Sobre nosotros",
+		"title": "Sobre nosotras",
+		"subTitle": "Hemos diseñado un espacio donde la medicina regenerativa y la estética de alta gama convergen para potenciar la mejor versión de nuestros pacientes.",
+		"text": "En AlphaBelle Wellness, creemos que el bienestar y el cuidado estético son para todos. Nuestro enfoque integra a la perfección salud, equilibrio y belleza, ofreciendo soluciones personalizadas diseñadas para ayudar a cada individuo a alcanzar su mejor versión.",
+		"text1": "Combinamos tecnología avanzada con un enfoque integral orientado a resultados que va más allá de los tratamientos superficiales. Desde programas médicos de pérdida de peso y optimización hormonal hasta servicios estéticos como Botox, rellenos dérmicos y terapias avanzadas de regeneración de la piel, cada tratamiento se adapta para ofrecer resultados naturales y duraderos.",
+		"text2": "En AlphaBelle Wellness, no solo mejoramos la apariencia; ayudamos a restaurar la confianza, optimizar la salud general y elevar la calidad de vida.",
+		"mision": "Misión",
+		"textM": "En AlphaBelle Wellness, nuestra misión es redefinir el bienestar y la estética a través de una experiencia exclusiva y personalizada basada en la excelencia médica. Nos dedicamos a elevar la mejor versión de cada individuo mediante tratamientos avanzados enfocados en la pérdida de peso, el equilibrio hormonal y la regeneración de la piel.",
+		"textM1": "Al combinar ciencia, innovación y un enfoque holístico, entregamos resultados visibles, naturales y duraderos, creando un ambiente donde cada detalle está diseñado para inspirar confianza, mejorar la autoimagen y promover un bienestar auténtico y sostenible.",
+		"vision": "Visión",
+		"textV": "Nuestra visión es establecer a AlphaBelle Wellness como un destino de primer nivel en el bienestar moderno y la medicina estética, reconocido por su innovación, sofisticación y resultados excepcionales.",
+		"textV1": "Aspiramos a construir una marca icónica donde la salud, la belleza y el alto rendimiento existan en perfecta armonía, estableciendo un nuevo estándar en la industria y brindando una experiencia transformadora que trasciende lo convencional."
+	},
+	"AboutPage": {
+		"heroEyebrow": "Sobre Nosotros",
+		"heroTitle": "La excelencia no tiene género",
+		"heroIntro": "Hemos diseñado un espacio donde la medicina regenerativa y la estética de alta gama convergen para potenciar la mejor versión de cada paciente.",
+		"storyEyebrow": "Nuestra Historia",
+		"storyTitle": "Bienestar, equilibrio y belleza — para todos",
+		"teamEyebrow": "El Equipo",
+		"teamTitle": "Un cuidado liderado por especialistas",
+		"teamIntro": "Cada tratamiento en AlphaBelle es realizado por profesionales médicos capacitados, comprometidos con resultados seguros, naturales y duraderos.",
+		"foundersEyebrow": "Fundadores",
+		"specialistsEyebrow": "Especialistas",
+		"role1": "Directora Médica",
+		"role1desc": "Médica certificada especializada en medicina regenerativa y estética, supervisando cada protocolo.",
+		"role2": "Enfermera Inyectora",
+		"role2desc": "Inyectora avanzada con un ojo refinado para el equilibrio facial y realces de apariencia natural.",
+		"role3": "Especialista en Estética y Bienestar",
+		"role3desc": "Dedicada a la salud personalizada de la piel, terapia IV y una experiencia excepcional para el paciente.",
+		"credEyebrow": "Credenciales",
+		"credTitle": "A la altura de un estándar médico",
+		"credIntro": "Tu seguridad es la base de todo lo que hacemos. AlphaBelle opera bajo estricta supervisión médica y utiliza únicamente protocolos aprobados y basados en evidencia.",
+		"cert1": "Equipo médico certificado",
+		"cert2": "Tratamientos y productos aprobados por la FDA",
+		"cert3": "Instalación con licencia y asegurada",
+		"cert4": "Capacitación clínica continua",
+		"stat1n": "10+",
+		"stat1l": "Tratamientos insignia",
+		"stat2n": "100%",
+		"stat2l": "Protocolos personalizados",
+		"stat3n": "Grado médico",
+		"stat3l": "Seguridad y supervisión"
+	},
+	"Team": {
+		"m1name": "María Borjas",
+		"m1role": "Enfermera Practicante",
+		"m1bio": "Enfermera practicante enfocada en una atención cercana y centrada en el paciente. Combina su experiencia clínica con un trato cálido y personalizado para acompañar el bienestar de cada paciente en AlphaBelle Wellness.",
+		"m2name": "Harold Navas",
+		"m2role": "Enfermero Registrado",
+		"m2bio": "Enfermero registrado dedicado a una atención segura y compasiva. Acompaña cada tratamiento con profesionalismo y una atención cercana al bienestar y la comodidad de cada paciente.",
+		"m3name": "Daniel Acevedo",
+		"m3role": "Cirujano",
+		"m3bio": "Cirujano comprometido con la excelencia y la seguridad del paciente. Aporta precisión, experiencia y un enfoque personalizado a cada procedimiento en AlphaBelle Wellness.",
+		"m4name": "Mariana Armas",
+		"m4role": "Asistente Médica · Técnica en Flebotomía y EKG",
+		"m4bio": "Laser Professional (Nivel IV) con certificaciones en Neurotoxina, Dermal Fillers, Microneedling y evaluación profesional de la piel. Te acompaña con un servicio exclusivo, atención personalizada y los más altos estándares de calidad para que vivas una experiencia excepcional en AlphaBelle Wellness.",
+		"m5name": "Karina Pérez",
+		"m5role": "Esteticista Licenciada",
+		"m5bio": "Esteticista licenciada en el estado de Texas, con más de 800 horas de formación clínica avanzada y amplia experiencia en terapias faciales. Se distingue por su enfoque personalizado, altos estándares de higiene y protocolos adaptados a las necesidades de cada paciente para lograr resultados visibles y duraderos.",
+		"m6name": "Rossi Romero",
+		"m6role": "Profesional Avanzada en Láser · Especialista Licenciada en Depilación Láser",
+		"m6bio": "Profesional licenciada en el estado de Texas con formación avanzada en Laser Professional I, II, III y IV, especializada en Laser Hair Removal. Comprometida con tratamientos seguros y personalizados, y también certificada en Dermal Fillers, ofreciendo un enfoque integral para realzar la belleza natural de cada paciente.",
+		"m7name": "María Pérez",
+		"m7role": "Nutricionista",
+		"m7bio": "Nutricionista enfocada en planes personalizados que apoyan los objetivos de salud y estética de cada paciente. Acompaña la creación de hábitos duraderos con un enfoque práctico y orientado a resultados."
+	},
+	"HowWeWork": {
+		"title": "¿Como lo haremos?",
+		"text1": "Para comenzar, coordinaremos una cita contigo y tu familia para realizar un diagnóstico detallado de la situación actual que estás enfrentando. Luego, te presentaremos las opciones de solución más adecuadas para tus necesidades específicas.",
+		"text2": "Reemplazo de techo, insolación, ayudarte a cambiar de proveedor eléctrico sin costos. Nuestro objetivo es ofrecerte alternativas personalizadas que respondan efectivamente a tus requerimientos."
+	},
+	"Services": {
+		"title": "Profesionales en:",
+		"subtitle": "Bienestar y Estética",
+		"learnMore": "Saber más",
+		"buttons": "Ver todos los servicios",
+		"buttons1": "Quiero saber más",
+		"texts1": "¿Listo para reservar?",
+		"texts2": "Reserva tu cita y recibe una consulta personalizada.",
+		"pageEyebrow": "Nuestros Servicios",
+		"pageTitle": "Bienestar y Estética, Bajo un Mismo Techo",
+		"pageIntro": "En Alphabelle Wellness combinamos bienestar médico, medicina estética y tratamientos de belleza avanzados para ayudar a nuestros clientes a verse, sentirse y rendir al máximo.",
+		"s1": "Terapia de Pérdida de Peso",
+		"full1": "Pérdida de Peso y Optimización Metabólica",
+		"descripcion1": "Programas médicos de pérdida de peso personalizados, diseñados para ayudar a cada paciente a lograr resultados sostenibles mediante terapias guiadas por médicos y un acompañamiento integral de bienestar.",
+		"items1": [
+			"Programas Médicos de Pérdida de Peso",
+			"Terapia con GLP-1",
+			"Manejo de Composición Corporal",
+			"Optimización Metabólica",
+			"Planes de Bienestar Personalizados",
+			"Asesoría Nutricional"
+		],
+		"s2": "Optimización Hormonal",
+		"full2": "Optimización Hormonal y Salud Masculina / Femenina",
+		"descripcion2": "Evaluación y optimización hormonal integral, diseñadas para mejorar la energía, la vitalidad, el rendimiento, el ánimo y la calidad de vida en general.",
+		"items2": [
+			"Terapia de Reemplazo de Testosterona (TRT)",
+			"Terapia de Reemplazo Hormonal (HRT)",
+			"Optimización de Salud Masculina",
+			"Apoyo Hormonal Femenino",
+			"Apoyo de Bienestar Sexual",
+			"Programas de Bienestar Preventivo"
+		],
+		"s3": "Inyecciones de Bienestar y NAD+",
+		"full3": "Inyecciones de Bienestar y Terapia Celular",
+		"descripcion3": "Terapias avanzadas de bienestar, diseñadas para mejorar la producción de energía, la recuperación, el soporte inmunológico, la claridad mental y un envejecimiento saludable.",
+		"items3": [
+			"Terapia con NAD+",
+			"Inyecciones Vitamínicas",
+			"Inyecciones de Complejo B",
+			"Inyecciones MIC",
+			"Terapia de Soporte Inmunológico",
+			"Apoyo de Energía y Rendimiento",
+			"Apoyo de Recuperación y Antienvejecimiento"
+		],
+		"s4": "Botox, Rellenos y PRP",
+		"full4": "Inyectables Estéticos y Medicina Regenerativa",
+		"descripcion4": "Tratamientos estéticos no quirúrgicos, diseñados para restaurar la confianza, realzar la belleza natural y favorecer la regeneración de los tejidos.",
+		"items4": [
+			"Botox®",
+			"Rellenos Dérmicos",
+			"Rejuvenecimiento Facial con PRP",
+			"Restauración Capilar con PRP",
+			"Tratamientos de Armonización Facial",
+			"Tratamientos Antienvejecimiento"
+		],
+		"s5": "Tratamientos Estéticos Avanzados",
+		"full5": "Tratamientos Avanzados de Piel y Estética No Invasiva",
+		"descripcion5": "Procedimientos estéticos modernos, diseñados para mejorar la calidad, textura, tono y apariencia general de la piel sin cirugía.",
+		"items5": [
+			"Microneedling",
+			"Carboxiterapia",
+			"Faciales Profesionales",
+			"Tratamientos de Rejuvenecimiento de la Piel",
+			"Tratamientos para Acné y Cicatrices",
+			"Tratamientos de Estimulación de Colágeno",
+			"Procedimientos Faciales Antienvejecimiento",
+			"Programas de Cuidado de Piel Personalizados"
+		],
+		"s6": "Servicios Láser y Recuperación",
+		"full6": "Servicios Láser y de Recuperación Corporal",
+		"descripcion6": "Tecnologías láser avanzadas y terapias de recuperación, diseñadas para mejorar la apariencia, el confort y la sanación posterior al tratamiento.",
+		"items6": [
+			"Depilación Láser",
+			"Reducción de Vello Corporal Completo",
+			"Depilación Facial",
+			"Masaje de Drenaje Linfático",
+			"Terapia de Masaje Posoperatorio",
+			"Apoyo de Contorno Corporal",
+			"Servicios de Masaje de Recuperación y Bienestar"
+		],
+		"whyEyebrow": "La Diferencia Alphabelle",
+		"whyTitle": "¿Por Qué Elegir Alphabelle Wellness?",
+		"why": [
+			"Planes de Tratamiento Personalizados",
+			"Supervisión Médica",
+			"Tecnología Moderna",
+			"Terapias Basadas en Evidencia",
+			"Resultados de Apariencia Natural",
+			"Bienestar y Estética Bajo un Mismo Techo",
+			"Servicios para Hombres y Mujeres",
+			"Experiencia Premium para el Cliente"
+		],
+		"closing": "Donde el Bienestar se Encuentra con la Confianza."
+	},
+	"Contact": {
+		"title": "Solicitud de información",
+		"subTitle": "Programa tu consulta",
+		"text1": "Estás a un paso de revitalizar tu piel con lo último en medicina regenerativa",
+		"text": "Déjanos tus datos y nuestro equipo médico se pondrá en contacto contigo para agendar tu valoración y diseñar el plan perfecto para ti",
+		"name": "Nombre",
+		"lastName": "Apellido",
+		"email": "Correo",
+		"phone": "Teléfono",
+		"state": "Estado",
+		"city": "Ciudad",
+		"zipCode": "Código Postal",
+		"message": "Mensaje",
+		"buttonE": "Enviar",
+		"whatsApp": "WhatsApp",
+		"phoneE": "Teléfono",
+		"emailE": "Correo",
+		"address": "Dirección",
+		"successMessage": "¡Formulario enviado con éxito!",
+		"services": "Servicio",
+		"error": "Por favor, completa todos los campos antes de enviar el formulario.",
+		"sending": "Enviando...",
+		"selectService": "Selecciona un servicio",
+		"service": "Servicio"
+	},
+	"Testimonial": {
+		"title": "Testimonios",
+		"persona1": {
+			"nombre": "Gustavo Cortés",
+			"profesion": "Empresario",
+			"mensaje": "Excelente atención y resultados muy naturales. El equipo de AlphaBelle superó mis expectativas con un trato impecable."
+		},
+		"persona2": {
+			"nombre": "Elena Rodríguez",
+			"profesion": "Diseñadora de Interiores",
+			"mensaje": "Me encantó la tecnología que utilizan. Se nota la experiencia y el cuidado en cada detalle del tratamiento."
+		},
+		"persona3": {
+			"nombre": "Ricardo Méndez",
+			"profesion": "Arquitecto",
+			"mensaje": "Un espacio moderno y profesional. Los resultados fueron visibles desde la primera sesión, totalmente recomendados."
+		},
+		"persona4": {
+			"nombre": "Sofía Villalobos",
+			"profesion": "Consultora de Imagen",
+			"mensaje": "La mejor clínica estética de la ciudad. El personal es muy amable y las instalaciones son de primer nivel."
+		}
+	},
+	"Allies": {
+		"title": "Nuestros Aliados"
+	},
+	"CTA": {
+		"title": "El momento de invertir en ti es ahora",
+		"text": "No dejes tu bienestar para después. Nuestro equipo de especialistas está listo para diseñar un protocolo exclusivo que se adapte a tus objetivos y resalte tu esencia natural.",
+		"text1": "Social Media",
+		"text2": "Contactanos",
+		"buttonc": "Quiero hacer mi reserva"
+	},
+	"Footer": {
+		"title": "Más información",
+		"textBold": "¿Aún no estás seguro de cuál es el tratamiento ideal para ti?",
+		"text": "Antes de cualquier procedimiento, nuestro equipo realiza una valoración personalizada para entender las necesidades únicas de tu piel y tus objetivos estéticos.",
+		"text1": "Contáctanos",
+		"buttonc": "Hacer mi reservación",
+		"address": "Ubicación",
+		"emailE": "Gmail",
+		"phoneE": "Teléfono",
+		"social": "Redes Sociales"
+	}
 }

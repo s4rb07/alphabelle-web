@@ -7,6 +7,7 @@ export const localePrefix = "always"; // siempre incluye el prefijo de idioma en
 export const pathnames = {
 	"/": "/",
 	"/about": "/about",
+	"/services": "/services",
 };
 
 export const { Link, redirect, usePathname, useRouter } =

@@ -10,16 +10,28 @@ module.exports = {
 			colors: {
 				primary: "#7c7364",
 				secundary: "#c8c4bb",
-				fondo: "#f4f0e8",
 				negro: "#303030",
 				m: "#d1c7bd",
 				b: "#F1D2BB",
 				fondo: "#d1c7bd",
 				gris: "#D9D9D9",
+				// --- AlphaBelle design system (quiet luxury) ---
+				cream: "#f6f2ea",
+				sand: "#ece5d8",
+				stone: "#c8c4bb",
+				taupe: "#7c7364",
+				espresso: "#2a2521",
+				ink: "#171411",
+				gold: "#b08d57",
+				champagne: "#cdb288",
 			},
-			// fontFamily: {
-			// 	Montserrat: ["Montserrat"],
-			// },
+			fontFamily: {
+				serif: ["var(--font-cormorant)", "Georgia", "serif"],
+				sans: ["var(--font-montserrat)", "system-ui", "sans-serif"],
+			},
+			letterSpacing: {
+				eyebrow: "0.32em",
+			},
 			screens: {
 				xs: "280px",
 				sm: "640px",
@@ -56,8 +68,8 @@ module.exports = {
 				"100v": "100vh",
 			},
 			backgroundImage: (theme) => ({
-				banner: "url('/image/banner.webp')",
-				contact: "url('/image/contact2.webp')",
+				banner: "url('/image/banner.png')",
+				contact: "url('/image/aboutus.png')",
 			}),
 		},
 	},
