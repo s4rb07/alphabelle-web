@@ -78,27 +78,31 @@
 		"stat3l": "Safety and supervision"
 	},
 	"Team": {
-		"m1name": "María Borjas",
+		"m1name": "María Borjas, NP",
 		"m1role": "Nurse Practitioner",
-		"m1bio": "Nurse practitioner focused on attentive, patient-centered care. She combines clinical expertise with a warm, personalized approach to support each patient's wellness journey at AlphaBelle Wellness.",
-		"m2name": "Harold Navas",
+		"m1bio": "Dedicated registered nurse with clinical experience in men's and women's health. Possesses a strong understanding of assessment, diagnosis and the management of patients and nurses. Reliable, passionate and accurate nurse with interpersonal skills and the ability to communicate with patients, doctors and family members, looking for an opportunity to work long term with a medical facility.",
+		"m2name": "Harold Navas, RN",
 		"m2role": "Registered Nurse",
-		"m2bio": "Registered nurse dedicated to safe, compassionate care. He supports every treatment with professionalism and close attention to each patient's comfort and well-being.",
+		"m2bio": "Registered Nurse with a Bachelor of Science in Nursing and nearly five years of medical studies completed in Cuba, giving him advanced knowledge of anatomy, physiology, and pharmacology. Now practicing in primary care, he is recognized for strong clinical assessment, teamwork, and safe, evidence-based, patient-centered care.",
 		"m3name": "Daniel Acevedo",
-		"m3role": "Surgeon",
-		"m3bio": "Surgeon committed to excellence and patient safety. He brings precision, experience, and a personalized approach to every procedure at AlphaBelle Wellness.",
-		"m4name": "Mariana Armas",
+		"m3role": "Administrator",
+		"m3bio": "Founder and administrator overseeing daily operations at AlphaBelle Wellness. He leads the team and ensures every patient receives attentive, high-quality care from start to finish.",
+		"m4name": "Mariana Armas, MA",
 		"m4role": "Medical Assistant · Phlebotomy & EKG Technician",
 		"m4bio": "Laser Professional (Level IV) with certifications in Neurotoxins, Dermal Fillers, Microneedling, and professional skin assessment. She delivers an exclusive, personalized service with the highest quality standards for an exceptional experience at AlphaBelle Wellness.",
-		"m5name": "Karina Pérez",
+		"m5name": "Karina Pérez, LE",
 		"m5role": "Licensed Esthetician",
 		"m5bio": "Licensed esthetician in the state of Texas with over 800 hours of advanced clinical training and extensive experience in facial therapies. She stands out for her personalized approach, high hygiene standards, and protocols tailored to each patient for visible, lasting results.",
-		"m6name": "Rossi Romero",
+		"m6name": "Rossi Romero, LLP",
 		"m6role": "Advanced Laser Professional · Licensed Laser Hair Removal Specialist",
 		"m6bio": "Licensed professional in the state of Texas with advanced training in Laser Professional Levels I–IV, specializing in Laser Hair Removal. Committed to safe, personalized treatments and also certified in Dermal Fillers, offering a comprehensive approach to enhance each patient's natural beauty.",
-		"m7name": "María Pérez",
-		"m7role": "Nutritionist",
-		"m7bio": "Nutritionist focused on personalized plans that support each patient's health and aesthetic goals. She guides lasting habits with a practical, results-driven approach."
+		"m7name": "María Pérez, CN & CPT",
+		"m7role": "Certified Nutrition & Personal Training Specialist",
+		"m7bio": "Certified Nutrition & Fitness Specialist at AlphaBelle Wellness, dedicated to helping clients improve their health, confidence, and overall wellness through personalized nutrition guidance, lifestyle support, and fitness-focused recommendations. She is passionate about helping each client build sustainable habits and feel their best from the inside out.",
+		"m8name": "Jaime Morales, MD",
+		"m8role": "Medical Director",
+		"m8bio": "20 Years of Experience as an ER Doctor",
+		"licenseLabel": "License"
 	},
 	"HowWeWork": {
 		"title": "How will we do it?",
@@ -267,6 +271,46 @@
 		"address": "Location",
 		"emailE": "Gmail",
 		"phoneE": "Phone",
-		"social": "Social Media"
+		"social": "Social Media",
+		"faqLink": "FAQ"
+	},
+	"FaqPage": {
+		"heroEyebrow": "FAQ",
+		"heroTitle": "Frequently asked questions",
+		"heroIntro": "Everything you need to know about visiting AlphaBelle Wellness in Katy, TX.",
+		"items": [
+			{
+				"q": "Where is AlphaBelle Wellness located?",
+				"a": "We're at 2750 FM 1463 Suite 250, Katy, TX 77494."
+			},
+			{
+				"q": "What are your hours?",
+				"a": "Monday through Friday, 9 AM to 5 PM. We're closed on weekends."
+			},
+			{
+				"q": "What services do you offer?",
+				"a": "Weight loss and metabolic optimization, hormone therapy, wellness and NAD+ injections, aesthetic injectables (Botox, fillers, PRP), advanced skin treatments, and laser and body recovery."
+			},
+			{
+				"q": "How do I book an appointment?",
+				"a": "Book online through our booking page, or call us at (281) 505-1331."
+			},
+			{
+				"q": "Are your treatments medically supervised?",
+				"a": "Yes. AlphaBelle is a physician-led practice, so every treatment is performed by trained medical professionals."
+			},
+			{
+				"q": "Do you offer both wellness and aesthetic treatments?",
+				"a": "Yes — regenerative medicine and high-end aesthetics live under one roof, so you can care for how you feel and how you look in one place."
+			},
+			{
+				"q": "I'm not sure which treatment is right for me. What should I do?",
+				"a": "Start with a personalized consultation. Our team assesses your needs and goals, then recommends the right plan for you."
+			},
+			{
+				"q": "Do you offer treatments for both men and women?",
+				"a": "Yes. Our wellness and hormone programs are tailored for both men's and women's health, alongside aesthetic treatments for everyone."
+			}
+		]
 	}
 }

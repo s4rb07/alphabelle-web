@@ -1,11 +1,10 @@
 import React from "react";
 import { MapPin, Mail, Phone, Instagram } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useLocale } from "next-intl";
+import { BOOKING_URL } from "@/lib/config";
 
 const CTASection = () => {
   const t = useTranslations("CTA");
-  const localActive = useLocale();
 	return (
 		<section className="relative w-full min-h-[500px] flex flex-col justify-center items-center text-white overflow-hidden">
 			<div
@@ -28,7 +27,7 @@ const CTASection = () => {
 					className="mt-1 bg-[#6b5e50] hover:bg-[#5a4e42] text-white text-sm font-semibold px-8 py-3 rounded-2xl transition-colors duration-200"
 					type="submit"
 				>
-					<a href={`/${localActive}/#contact`}>{t("buttonc")}</a>
+					<a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">{t("buttonc")}</a>
 				</button>
 			</div>
 
@@ -49,7 +48,7 @@ const CTASection = () => {
 						</div>
 						<div className="flex items-center gap-2 hover:text-white cursor-pointer transition-colors">
 							<Phone size={18} />
-							<span>(346) 717-5550 / (321) 330-6424</span>
+							<span>(281) 505-1331</span>
 						</div>
 						<div className="flex items-center gap-2 hover:text-white cursor-pointer transition-colors">
 							<Instagram size={18} />

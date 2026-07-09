@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { useLocale } from "next-intl";
+import { BOOKING_URL } from "@/lib/config";
 
 const SERVICE_CONFIG = {
 	1: {
@@ -71,7 +71,6 @@ const SERVICE_CONFIG = {
 
 export default function ServiceModal({ serviceIndex, onClose }) {
 	const t = useTranslations("Services");
-	const localActive = useLocale();
 
 	useEffect(() => {
 		const handleKey = (e) => {
@@ -188,7 +187,7 @@ export default function ServiceModal({ serviceIndex, onClose }) {
 							</div>
 							<button className="ab-cta-btn bg-[#1a1a1a] text-[#f2f0e9] rounded-[10px] px-5 py-2.5 text-xs font-semibold tracking-[0.06em] cursor-pointer whitespace-nowrap transition-all duration-150 border-none">
 							
-							<a href={`/${localActive}/#contact`}> {t("buttons1")}</a>	
+							<a href={BOOKING_URL} target="_blank" rel="noopener noreferrer"> {t("buttons1")}</a>
 							</button>
 						</div>
 					</div>

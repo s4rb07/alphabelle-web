@@ -1,6 +1,6 @@
 import { SITE_URL, locales, defaultLocale } from "@/lib/seo";
 
-const ROUTES = ["", "/about", "/services"];
+const ROUTES = ["", "/about", "/services", "/faq"];
 
 export default function sitemap() {
 	return ROUTES.flatMap((route) => {

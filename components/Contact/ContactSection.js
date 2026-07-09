@@ -123,10 +123,7 @@ const ContactSection = () => {
 						</div>
 						<div className="flex items-center gap-2 hover:text-white cursor-pointer transition-colors">
 							<Phone size={18} />
-							<span>(346) 717-5550
-								<br />
-								(321) 330-6424
-							</span>
+							<span>(281) 505-1331</span>
 						</div>
 					</div>
 				</div>

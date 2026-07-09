@@ -19,9 +19,6 @@ const StorySection = () => {
 						/>
 					</div>
 					<div className="absolute -right-5 -top-5 h-28 w-28 rounded-full border border-gold/30" />
-					<div className="absolute -bottom-6 -left-6 hidden aspect-[4/3] w-40 overflow-hidden rounded-2xl border-4 border-cream shadow-lg sm:block">
-						<Image src="/image/2.png" alt="" fill className="object-cover" />
-					</div>
 				</div>
 
 				<div className="order-1 lg:order-2" data-aos="fade-left">

@@ -1,8 +1,21 @@
 import React from "react";
+import HeroSlideshow from "./HeroSlideshow";
 
-const PageHero = ({ eyebrow, title, intro }) => {
+const PageHero = ({ eyebrow, title, intro, slides }) => {
 	return (
-		<section className="relative overflow-hidden bg-espresso px-6 pb-20 pt-40 text-cream">
+		<section
+			className={`relative overflow-hidden bg-espresso px-6 text-cream ${
+				slides?.length
+					? "pb-40 pt-52 md:pb-52 md:pt-64"
+					: "pb-20 pt-40"
+			}`}
+		>
+			{slides?.length ? (
+				<>
+					<HeroSlideshow images={slides} />
+					<div className="pointer-events-none absolute inset-0 bg-espresso/70" />
+				</>
+			) : null}
 			{/* decorative rings */}
 			<div className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full border border-champagne/15" />
 			<div className="pointer-events-none absolute -left-20 bottom-0 h-64 w-64 translate-y-1/2 rounded-full border border-champagne/10" />

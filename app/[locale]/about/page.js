@@ -20,6 +20,11 @@ const About = () => {
 				eyebrow={t("heroEyebrow")}
 				title={t("heroTitle")}
 				intro={t("heroIntro")}
+				slides={[
+					"/image/about/facility-reception.jpg",
+					"/image/about/facility-carelika.jpg",
+					"/image/about/facility-room.jpg",
+				]}
 			/>
 			<StorySection />
 			<MissionVision />

@@ -4,11 +4,13 @@ import 'toastify-js/src/toastify.css';
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer.";
 import ChatbotButton from "@/components/Shared/ChatbotButton";
+import FloatingContact from "@/components/Shared/FloatingContact";
+import ShopPopup from "@/components/Shared/ShopPopup";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { AOSInit } from "@/aos"
-import Head from "next/head";
 import JsonLd from "@/components/Shared/JsonLd";
+import GoogleAnalytics from "@/components/Shared/GoogleAnalytics";
 import { SITE_URL, localBusinessJsonLd } from "@/lib/seo";
 
 
@@ -44,11 +46,9 @@ export default async function LocaleLayout({ children, params }) {
 
 	return (
 		<html lang={params.locale} className={`${montserrat.variable} ${cormorant.variable}`}>
-			<Head>
-				<link rel="icon" href="/favicon.ico" />
-			</Head>
 			<AOSInit />
 			<body className="max-w-max min-w-min mx-auto bg-cream font-sans text-espresso antialiased">
+				<GoogleAnalytics />
 				<JsonLd data={localBusinessJsonLd(params.locale)} />
 				<NextIntlClientProvider messages={messages}>
 					<Header />
@@ -57,6 +57,8 @@ export default async function LocaleLayout({ children, params }) {
 					</div>
 					<Footer />
 					<ChatbotButton />
+					<FloatingContact />
+					<ShopPopup />
 				</NextIntlClientProvider>
 				
 			</body>

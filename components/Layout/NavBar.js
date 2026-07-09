@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import { Menu, ChevronDown } from "lucide-react";
+import { BOOKING_URL } from "@/lib/config";
 
 const LANGUAGES = [
 	{ code: "en", label: "English" },
@@ -94,7 +95,7 @@ const NavBar = () => {
 								className="rounded-2xl font-bold text-espresso bg-cream lg:px-5 lg:py-1 hover:bg-champagne transition-colors"
 								type="submit"
 							>
-								<a href={`/${localActive}/#contact`}>{t("buttonCont")}</a>
+								<a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">{t("buttonCont")}</a>
 							</button>
 							<div className="relative" ref={langRef}>
 								<button
@@ -177,11 +178,10 @@ const NavBar = () => {
 								</button>
 							))}
 							<button
-								href="#contact"
 								className="rounded-full font-semibold text-primary bg-m px-5 py-1 hover:bg-secundary transition-colors"
 								type="submit"
 							>
-								<a href={`/${localActive}/#contact`}>{t("buttonCont")}</a>
+								<a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">{t("buttonCont")}</a>
 							</button>
 						</ul>
 					</div>

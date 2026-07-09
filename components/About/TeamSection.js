@@ -2,23 +2,22 @@ import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-// Founders + team. Photos live in /public/image/team. Copy (name/role/bio) is
-// driven by the `Team` keys in messages/en.json + es.json (m1..m6). Each `key`
-// binds a photo to its copy; reorder the arrays to reorder the grid.
-const founders = [
-	{ key: "m3", photo: "/image/team/man-scrubs.jpg" }, // Daniel Acevedo
-	{ key: "m4", photo: "/image/team/woman-scrubs-a.jpg" }, // Mariana Armas
-];
-
+// Single ordered team grid. Photos live in /public/image/team. Copy
+// (name/role/bio) is driven by the `Team` keys in messages/en.json + es.json.
+// `license` is optional and shown under the role; add numbers as they arrive.
+// Reorder the array to reorder the grid.
 const team = [
-	{ key: "m5", photo: "/image/team/woman-tee.jpg" }, // Karina Pérez
-	{ key: "m6", photo: "/image/team/woman-scrubs-b.jpg" }, // Rossi Romero
-	{ key: "m1", photo: "/image/team/doctor-labcoat.jpg" }, // María Borjas
-	{ key: "m2", photo: "/image/team/man-suit.jpg" }, // Harold Navas
+	{ key: "m8", photo: "/image/team/jaime-morales.jpg", license: "Q9685", npi: "1588849475" }, // Jaime Morales
+	{ key: "m1", photo: "/image/team/doctor-labcoat.jpg", license: "1088481", npi: "1871144584" }, // María Borjas
+	{ key: "m2", photo: "/image/team/man-suit.jpg", license: "1226287" }, // Harold Navas
+	{ key: "m4", photo: "/image/team/woman-scrubs-a.jpg", license: "ZP24525" }, // Mariana Armas
+	{ key: "m5", photo: "/image/team/woman-tee.jpg", license: "2177002" }, // Karina Pérez
+	{ key: "m6", photo: "/image/team/woman-scrubs-b.jpg", license: "ZP24479" }, // Rossi Romero
 	{ key: "m7", photo: "/image/team/maria-perez.jpg" }, // María Pérez
+	{ key: "m3", photo: "/image/team/man-scrubs.jpg" }, // Daniel Acevedo
 ];
 
-const MemberCard = ({ member, tm, featured, index, sizes }) => {
+const MemberCard = ({ member, tm, index, sizes }) => {
 	const bio = tm(`${member.key}bio`);
 	return (
 		<figure
@@ -26,11 +25,7 @@ const MemberCard = ({ member, tm, featured, index, sizes }) => {
 			data-aos-delay={index * 100}
 			className="group text-center"
 		>
-			<div
-				className={`relative aspect-[4/5] overflow-hidden rounded-2xl bg-sand shadow-[0_18px_44px_-32px_rgba(42,37,33,0.55)] ${
-					featured ? "ring-1 ring-gold/25" : ""
-				}`}
-			>
+			<div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-sand shadow-[0_18px_44px_-32px_rgba(42,37,33,0.55)]">
 				<Image
 					src={member.photo}
 					alt={tm(`${member.key}name`)}
@@ -40,14 +35,20 @@ const MemberCard = ({ member, tm, featured, index, sizes }) => {
 				/>
 			</div>
 			<figcaption className="mt-6">
-				<h3
-					className={`font-serif font-medium text-espresso ${
-						featured ? "text-2xl" : "text-xl"
-					}`}
-				>
+				<h3 className="font-serif text-xl font-medium text-espresso">
 					{tm(`${member.key}name`)}
 				</h3>
 				<p className="eyebrow mt-2 text-gold">{tm(`${member.key}role`)}</p>
+				{member.license ? (
+					<p className="mt-1 text-xs font-light tracking-wide text-espresso/45">
+						{tm("licenseLabel")} #{member.license}
+					</p>
+				) : null}
+				{member.npi ? (
+					<p className="text-xs font-light tracking-wide text-espresso/45">
+						NPI #{member.npi}
+					</p>
+				) : null}
 				{bio ? (
 					<p className="mx-auto mt-4 max-w-sm text-sm font-light leading-relaxed text-espresso/65">
 						{bio}
@@ -76,27 +77,6 @@ const TeamSection = () => {
 					</p>
 				</div>
 
-				{/* Founders */}
-				<div className="mb-10 text-center" data-aos="fade-up">
-					<p className="eyebrow text-espresso/40">{t("foundersEyebrow")}</p>
-				</div>
-				<div className="mx-auto grid max-w-3xl gap-x-10 gap-y-12 sm:grid-cols-2">
-					{founders.map((m, i) => (
-						<MemberCard
-							key={m.key}
-							member={m}
-							tm={tm}
-							featured
-							index={i}
-							sizes="(max-width:640px) 100vw, 360px"
-						/>
-					))}
-				</div>
-
-				{/* The team */}
-				<div className="mb-10 mt-24 text-center" data-aos="fade-up">
-					<p className="eyebrow text-espresso/40">{t("specialistsEyebrow")}</p>
-				</div>
 				<div className="flex flex-wrap justify-center gap-x-8 gap-y-12">
 					{team.map((m, i) => (
 						<div

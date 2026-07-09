@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
+import { BOOKING_URL } from "@/lib/config";
 
 // Two ~8s clips that crossfade like a slideshow
 const HERO_VIDEOS = ["/video/hero-1.mp4", "/video/hero-2.mp4"];
@@ -47,7 +48,7 @@ const HeroBanner = () => {
 			<div className="absolute inset-0 bg-espresso/20" />
 
 			{/* Content */}
-			<div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center text-cream">
+			<div className="relative z-10 flex h-full flex-col items-center justify-center px-6 pt-24 text-center text-cream md:pt-20">
 				<div className="ab-rise mb-7" style={{ animationDelay: "0.1s" }}>
 					<Image
 						src="/image/logo.png"
@@ -85,7 +86,9 @@ const HeroBanner = () => {
 					style={{ animationDelay: "0.7s" }}
 				>
 					<a
-						href={`/${locale}/#contact`}
+						href={BOOKING_URL}
+						target="_blank"
+						rel="noopener noreferrer"
 						className="rounded-full bg-cream px-9 py-3.5 text-sm font-semibold tracking-wide text-espresso transition-all duration-300 hover:bg-champagne"
 					>
 						{t("buttonc")}
@@ -96,13 +99,6 @@ const HeroBanner = () => {
 					>
 						{t("buttons")}
 					</a>
-				</div>
-			</div>
-
-			{/* Scroll cue */}
-			<div className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
-				<div className="flex h-11 w-7 items-start justify-center rounded-full border border-cream/40 p-2">
-					<span className="h-2 w-1 animate-bounce rounded-full bg-cream/70" />
 				</div>
 			</div>
 		</section>

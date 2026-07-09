@@ -11,15 +11,25 @@ const WhoWeAre = () => {
 	return (
 		<section className="relative overflow-hidden bg-espresso px-6 py-24 text-cream md:py-32">
 			<div className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-2 lg:gap-20">
-				{/* Image collage */}
+				{/* Image collage — a woman and a man, both receiving care */}
 				<div className="relative" data-aos="fade-right">
-					<div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem]">
-						<Image
-							src="/image/site/about-portrait.jpg"
-							alt="AlphaBelle Wellness"
-							fill
-							className="object-cover"
-						/>
+					<div className="grid grid-cols-2 gap-4">
+						<div className="relative aspect-[3/4] w-full overflow-hidden rounded-[1.5rem]">
+							<Image
+								src="/image/site/about-portrait.jpg"
+								alt="Woman receiving a treatment at AlphaBelle Wellness"
+								fill
+								className="object-cover"
+							/>
+						</div>
+						<div className="relative mt-10 aspect-[3/4] w-full overflow-hidden rounded-[1.5rem]">
+							<Image
+								src="/image/site/about-man.jpg"
+								alt="Man receiving a treatment at AlphaBelle Wellness"
+								fill
+								className="object-cover"
+							/>
+						</div>
 					</div>
 					<div className="absolute -left-5 -top-5 h-24 w-24 rounded-full border border-champagne/40" />
 				</div>

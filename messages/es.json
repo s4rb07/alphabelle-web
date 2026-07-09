@@ -78,27 +78,31 @@
 		"stat3l": "Seguridad y supervisión"
 	},
 	"Team": {
-		"m1name": "María Borjas",
+		"m1name": "María Borjas, NP",
 		"m1role": "Enfermera Practicante",
-		"m1bio": "Enfermera practicante enfocada en una atención cercana y centrada en el paciente. Combina su experiencia clínica con un trato cálido y personalizado para acompañar el bienestar de cada paciente en AlphaBelle Wellness.",
-		"m2name": "Harold Navas",
+		"m1bio": "Enfermera registrada dedicada, con experiencia clínica en la salud de hombres y mujeres. Posee un sólido entendimiento de la evaluación, el diagnóstico y el manejo de pacientes y personal de enfermería. Enfermera confiable, apasionada y precisa, con habilidades interpersonales y la capacidad de comunicarse con pacientes, médicos y familiares, en busca de una oportunidad para trabajar a largo plazo en una institución médica.",
+		"m2name": "Harold Navas, RN",
 		"m2role": "Enfermero Registrado",
-		"m2bio": "Enfermero registrado dedicado a una atención segura y compasiva. Acompaña cada tratamiento con profesionalismo y una atención cercana al bienestar y la comodidad de cada paciente.",
+		"m2bio": "Enfermero Registrado con una Licenciatura en Ciencias de la Enfermería y casi cinco años de estudios de medicina completados en Cuba, lo que le aporta conocimientos avanzados en anatomía, fisiología y farmacología. Actualmente en atención primaria, destaca por su sólida evaluación clínica, el trabajo en equipo y una atención segura, basada en evidencia y centrada en el paciente.",
 		"m3name": "Daniel Acevedo",
-		"m3role": "Cirujano",
-		"m3bio": "Cirujano comprometido con la excelencia y la seguridad del paciente. Aporta precisión, experiencia y un enfoque personalizado a cada procedimiento en AlphaBelle Wellness.",
-		"m4name": "Mariana Armas",
+		"m3role": "Administrador",
+		"m3bio": "Fundador y administrador a cargo de las operaciones diarias de AlphaBelle Wellness. Lidera al equipo y vela por que cada paciente reciba una atención cercana y de alta calidad de principio a fin.",
+		"m4name": "Mariana Armas, MA",
 		"m4role": "Asistente Médica · Técnica en Flebotomía y EKG",
 		"m4bio": "Laser Professional (Nivel IV) con certificaciones en Neurotoxina, Dermal Fillers, Microneedling y evaluación profesional de la piel. Te acompaña con un servicio exclusivo, atención personalizada y los más altos estándares de calidad para que vivas una experiencia excepcional en AlphaBelle Wellness.",
-		"m5name": "Karina Pérez",
+		"m5name": "Karina Pérez, LE",
 		"m5role": "Esteticista Licenciada",
 		"m5bio": "Esteticista licenciada en el estado de Texas, con más de 800 horas de formación clínica avanzada y amplia experiencia en terapias faciales. Se distingue por su enfoque personalizado, altos estándares de higiene y protocolos adaptados a las necesidades de cada paciente para lograr resultados visibles y duraderos.",
-		"m6name": "Rossi Romero",
+		"m6name": "Rossi Romero, LLP",
 		"m6role": "Profesional Avanzada en Láser · Especialista Licenciada en Depilación Láser",
 		"m6bio": "Profesional licenciada en el estado de Texas con formación avanzada en Laser Professional I, II, III y IV, especializada en Laser Hair Removal. Comprometida con tratamientos seguros y personalizados, y también certificada en Dermal Fillers, ofreciendo un enfoque integral para realzar la belleza natural de cada paciente.",
-		"m7name": "María Pérez",
-		"m7role": "Nutricionista",
-		"m7bio": "Nutricionista enfocada en planes personalizados que apoyan los objetivos de salud y estética de cada paciente. Acompaña la creación de hábitos duraderos con un enfoque práctico y orientado a resultados."
+		"m7name": "María Pérez, CN & CPT",
+		"m7role": "Especialista Certificada en Nutrición y Entrenamiento Personal",
+		"m7bio": "Especialista Certificada en Nutrición y Fitness en AlphaBelle Wellness, dedicada a ayudar a sus clientes a mejorar su salud, confianza y bienestar general mediante una guía nutricional personalizada, acompañamiento en el estilo de vida y recomendaciones enfocadas en el fitness. Le apasiona ayudar a cada cliente a construir hábitos sostenibles y sentirse en su mejor versión, de adentro hacia afuera.",
+		"m8name": "Jaime Morales, MD",
+		"m8role": "Director Médico",
+		"m8bio": "20 años de experiencia como médico de emergencias",
+		"licenseLabel": "Licencia"
 	},
 	"HowWeWork": {
 		"title": "¿Como lo haremos?",
@@ -267,6 +271,46 @@
 		"address": "Ubicación",
 		"emailE": "Gmail",
 		"phoneE": "Teléfono",
-		"social": "Redes Sociales"
+		"social": "Redes Sociales",
+		"faqLink": "Preguntas Frecuentes"
+	},
+	"FaqPage": {
+		"heroEyebrow": "Preguntas Frecuentes",
+		"heroTitle": "Preguntas frecuentes",
+		"heroIntro": "Todo lo que necesitas saber sobre tu visita a AlphaBelle Wellness en Katy, TX.",
+		"items": [
+			{
+				"q": "¿Dónde está ubicada AlphaBelle Wellness?",
+				"a": "Estamos en 2750 FM 1463 Suite 250, Katy, TX 77494."
+			},
+			{
+				"q": "¿Cuál es su horario?",
+				"a": "De lunes a viernes, de 9 AM a 5 PM. Cerramos los fines de semana."
+			},
+			{
+				"q": "¿Qué servicios ofrecen?",
+				"a": "Pérdida de peso y optimización metabólica, terapia hormonal, inyecciones de bienestar y NAD+, inyectables estéticos (Botox, rellenos, PRP), tratamientos avanzados de piel, y láser y recuperación corporal."
+			},
+			{
+				"q": "¿Cómo agendo una cita?",
+				"a": "Reserva en línea a través de nuestra página de reservación, o llámanos al (281) 505-1331."
+			},
+			{
+				"q": "¿Los tratamientos son supervisados médicamente?",
+				"a": "Sí. AlphaBelle es una práctica dirigida por médicos, así que cada tratamiento lo realizan profesionales médicos capacitados."
+			},
+			{
+				"q": "¿Ofrecen tratamientos de bienestar y estéticos?",
+				"a": "Sí — la medicina regenerativa y la estética de alta gama conviven bajo un mismo techo, para que cuides cómo te sientes y cómo te ves en un solo lugar."
+			},
+			{
+				"q": "No estoy seguro de cuál tratamiento es el adecuado para mí. ¿Qué hago?",
+				"a": "Comienza con una consulta personalizada. Nuestro equipo evalúa tus necesidades y objetivos, y te recomienda el plan adecuado."
+			},
+			{
+				"q": "¿Ofrecen tratamientos para hombres y mujeres?",
+				"a": "Sí. Nuestros programas de bienestar y hormonales están diseñados para la salud de hombres y mujeres, junto con tratamientos estéticos para todos."
+			}
+		]
 	}
 }

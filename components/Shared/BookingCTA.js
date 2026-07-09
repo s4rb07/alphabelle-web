@@ -1,10 +1,10 @@
 import React from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
+import { BOOKING_URL } from "@/lib/config";
 
 const BookingCTA = () => {
 	const t = useTranslations("Services");
 	const n = useTranslations("NavBar");
-	const locale = useLocale();
 
 	return (
 		<section className="bg-sand px-6 py-20">
@@ -14,7 +14,9 @@ const BookingCTA = () => {
 					{t("texts2")}
 				</h2>
 				<a
-					href={`/${locale}/#contact`}
+					href={BOOKING_URL}
+					target="_blank"
+					rel="noopener noreferrer"
 					className="rounded-full bg-cream px-9 py-3.5 text-sm font-semibold tracking-wide text-espresso transition-colors duration-300 hover:bg-champagne"
 				>
 					{n("buttonCont")}
