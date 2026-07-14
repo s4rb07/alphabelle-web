@@ -5,7 +5,7 @@ import { useLocale } from "next-intl";
 import { Phone } from "lucide-react";
 
 const PHONE = "+12815051331";
-const WA_NUMBER = "12815051331";
+const WA_NUMBER = "13213306424";
 
 const COPY = {
 	en: {
