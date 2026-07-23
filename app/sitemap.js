@@ -1,6 +1,13 @@
 import { SITE_URL, locales, defaultLocale } from "@/lib/seo";
+import { SERVICE_SLUGS } from "@/lib/services";
 
-const ROUTES = ["", "/about", "/services", "/faq"];
+const ROUTES = [
+	"",
+	"/about",
+	"/services",
+	"/faq",
+	...SERVICE_SLUGS.map((slug) => `/services/${slug}`),
+];
 
 export default function sitemap() {
 	return ROUTES.flatMap((route) => {

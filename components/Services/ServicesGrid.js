@@ -2,8 +2,9 @@
 
 import React from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
-import { BOOKING_URL } from "@/lib/config";
+import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
+import { SERVICE_SLUGS } from "@/lib/services";
 import {
 	ArrowUpRight,
 	Check,
@@ -27,6 +28,7 @@ const SERVICES = [
 
 export default function ServicesGrid() {
 	const t = useTranslations("Services");
+	const locale = useLocale();
 
 	return (
 		<section className="bg-cream px-6 py-14 md:py-20">
@@ -89,10 +91,8 @@ export default function ServicesGrid() {
 										</li>
 									))}
 								</ul>
-								<a
-									href={BOOKING_URL}
-									target="_blank"
-									rel="noopener noreferrer"
+								<Link
+									href={`/${locale}/services/${SERVICE_SLUGS[i]}`}
 									className="group mt-5 inline-flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.15em] text-taupe transition-colors hover:text-gold"
 								>
 									{t("buttons1")}
@@ -100,7 +100,7 @@ export default function ServicesGrid() {
 										size={14}
 										className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
 									/>
-								</a>
+								</Link>
 							</div>
 						</article>
 					);

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { Scale, Dna, Syringe, Sparkles, Gem, Zap, ArrowUpRight } from "lucide-react";
+import { SERVICE_SLUGS } from "@/lib/services";
 
 // 6 service categories → editorial photo + matching lucide line-icon
 const SERVICES = [
@@ -39,7 +40,7 @@ const WhatWeDo = () => {
 						return (
 							<Link
 								key={num}
-								href={`/${locale}/services`}
+								href={`/${locale}/services/${SERVICE_SLUGS[i]}`}
 								data-aos="fade-up"
 								data-aos-delay={(i % 3) * 120}
 								className="group relative block aspect-[4/5] overflow-hidden rounded-2xl"

@@ -11,7 +11,12 @@
 		"links5": "Español",
 		"href5": "/es",
 		"buttonCont": "Book Appointment",
-		"shop": "Shop"
+		"shop": "Shop Peptides"
+	},
+	"TrustBar": {
+		"financing": "Financing & payment plans available",
+		"americanMade": "American-made products",
+		"medical": "Physician-supervised care"
 	},
 	"Banner": {
 		"title": "We are your exclusive destination with cutting-edge medical precision.",
@@ -115,6 +120,9 @@
 		"learnMore": "Learn more",
 		"buttons": "See all services",
 		"buttons1": "I want to know more",
+		"includesTitle": "What's included",
+		"otherTitle": "Explore other services",
+		"backToServices": "All services",
 		"texts1": "Ready to book?",
 		"texts2": "Reserve your appointment and receive a personalized consultation.",
 		"pageEyebrow": "Our Services",

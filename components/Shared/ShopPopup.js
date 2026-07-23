@@ -1,11 +1,12 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import { X, ArrowUpRight } from "lucide-react";
 
 const SHOP_URL = "https://shop.alphabellewellness.com";
+const SESSION_KEY = "ab_shop_popup_shown";
+const DELAY_MS = 30000;
 
 const COPY = {
 	en: {
@@ -27,15 +28,20 @@ const COPY = {
 export default function ShopPopup() {
 	const locale = useLocale();
 	const t = COPY[locale] ?? COPY.en;
-	const pathname = usePathname();
 	const [open, setOpen] = useState(false);
 
-	// Show on every page open / navigation
+	// Show once per browser session, 30s after the user lands.
+	// The layout persists across client-side navigation, so this timer
+	// tracks total time on the site (not per page).
 	useEffect(() => {
-		setOpen(false);
-		const id = setTimeout(() => setOpen(true), 700);
+		if (typeof window === "undefined") return;
+		if (sessionStorage.getItem(SESSION_KEY)) return;
+		const id = setTimeout(() => {
+			setOpen(true);
+			sessionStorage.setItem(SESSION_KEY, "1");
+		}, DELAY_MS);
 		return () => clearTimeout(id);
-	}, [pathname]);
+	}, []);
 
 	if (!open) return null;
 

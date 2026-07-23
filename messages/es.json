@@ -11,7 +11,12 @@
 		"links5": "English",
 		"href5": "/en",
 		"buttonCont": "Reservar una cita",
-		"shop": "Tienda"
+		"shop": "Shop Peptides"
+	},
+	"TrustBar": {
+		"financing": "Financiación y planes de pago disponibles",
+		"americanMade": "Productos fabricados en EE. UU.",
+		"medical": "Atención con supervisión médica"
 	},
 	"Banner": {
 		"title": "Somos tu destino exclusivo con precisión médica de vanguardia.",
@@ -115,6 +120,9 @@
 		"learnMore": "Saber más",
 		"buttons": "Ver todos los servicios",
 		"buttons1": "Quiero saber más",
+		"includesTitle": "Qué incluye",
+		"otherTitle": "Explora otros servicios",
+		"backToServices": "Todos los servicios",
 		"texts1": "¿Listo para reservar?",
 		"texts2": "Reserva tu cita y recibe una consulta personalizada.",
 		"pageEyebrow": "Nuestros Servicios",
