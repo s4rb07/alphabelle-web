@@ -11,16 +11,16 @@ const DELAY_MS = 30000;
 const COPY = {
 	en: {
 		eyebrow: "AlphaBelle Shop",
-		title: "Medical-grade skincare, delivered",
-		body: "Take home the same professional products we use in-clinic — curated for visible, lasting results.",
-		cta: "Visit the shop",
+		title: "Peptide & hormone therapy, delivered",
+		body: "Physician-supervised HRT focused on restoring hormonal balance and enhancing metabolic performance.",
+		cta: "Shop Peptides",
 		dismiss: "Maybe later",
 	},
 	es: {
 		eyebrow: "Tienda AlphaBelle",
-		title: "Cuidado de grado médico, a tu puerta",
-		body: "Lleva a casa los mismos productos profesionales que usamos en clínica — seleccionados para resultados visibles y duraderos.",
-		cta: "Ir a la tienda",
+		title: "Terapia de péptidos y hormonas, a tu puerta",
+		body: "Terapia hormonal supervisada por un médico, enfocada en restaurar el equilibrio hormonal y potenciar el rendimiento metabólico.",
+		cta: "Shop Peptides",
 		dismiss: "Quizás luego",
 	},
 };
