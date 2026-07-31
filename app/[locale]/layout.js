@@ -3,7 +3,7 @@ import "./globals.css";
 import 'toastify-js/src/toastify.css';
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer.";
-import ChatbotButton from "@/components/Shared/ChatbotButton";
+import CherryWidget from "@/components/Shared/CherryWidget";
 import FloatingContact from "@/components/Shared/FloatingContact";
 import ShopPopup from "@/components/Shared/ShopPopup";
 import { NextIntlClientProvider } from "next-intl";
@@ -56,7 +56,8 @@ export default async function LocaleLayout({ children, params }) {
 						{children}
 					</div>
 					<Footer />
-					<ChatbotButton />
+					{/* ChatbotButton retirado del render (igual que el deploy live 31 jul); el componente queda en Shared por si se restaura */}
+					<CherryWidget />
 					<FloatingContact />
 					<ShopPopup />
 				</NextIntlClientProvider>
